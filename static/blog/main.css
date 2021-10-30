@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+}
+
+header{
+    background-color: green;
+    height: 110px;
+    
+}

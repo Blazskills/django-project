@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+
+
+{% block content %}
+<h1>{{ post.title }}</h1>
+<p>{{ post.content }}</p>
+<small>
+
+    <a href="{% url 'home_page' %}">Back</a> |
+    <a href="{% url 'post_update'  post.id %}">Update</a> |
+    <a href="{% url 'post_delete'  post.id %}">Delete</a>
+
+</small>
+{% endblock content %}
